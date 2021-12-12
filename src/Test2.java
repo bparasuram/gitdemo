@@ -4,7 +4,7 @@ public class Test2 {
 		
 		String day = "yes";
 		//action
-		if(day.equals("yes") ) {
+		if(day.equals("yes") || day.equals("y") ) {
 			System.out.println("Good day to you sir!!");
 		} else {
 			System.out.println("Good night sir!!");
